@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="3GeIQic@|so8t[=5C4,w" x="275" y="-90"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id=",`6A!xkAp?^$4ZOiA8rZ"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="Tuk`.ybh6$bz[#k3xRJN"></block></value><next><block type="controls_if" id="PFRmz}H9x[jeY.;~WzV_"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="v{t_HEXQ:V5U8=Vl~VeD"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="2rl?`T;wtdPf5aZRCA]*"></block></value><value name="B"><shadow type="math_number" id="u/_N{iBWe+~hza^xb2F^"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="mFv*n=kc5?U$(r%JU6ta"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="L~(;qD.*6VdwiV]UZ`tc"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><next><block type="device_pause" id="ZIBue/J1~XW01a3Kr-Cy"><value name="pause"><shadow type="timePicker" id="F2O=wJWNN]cv|PSxLq5M"><field name="ms">1000</field></shadow></value></block></next></block></next></block></statement></block><block type="pxt-on-start" id="Oc7VS.pm`,gp7k{We2fn" x="0" y="0"></block></xml>
